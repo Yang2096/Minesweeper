@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_test"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+
+        <TextView
+            android:text="@string/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="4"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            >
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/Level"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:textStyle="normal|bold" />
+
+                <EditText
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:text="10"
+                    android:id="@+id/gameLevel"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="2"
+                     />
+
+                <Button
+                    android:id="@+id/start_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/GameStart"
+                    android:onClick="game_start"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                     />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_gravity="center"
+            android:text="@string/RankList"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:layout_weight="1"
+            android:onClick="showRankList"
+            />
+
+        <Button
+            android:layout_gravity="center"
+            android:text="@string/Stuff"
+            android:layout_width="200sp"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="showStuff"
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">扫雷</string>
+    <string name="GameStart">开始游戏</string>
+    <string name="Level">游戏难度</string>
+    <string name="RankList">英雄榜</string>
+    <string name="Stuff">制作人员</string>
+    <string name="HeroList">英雄榜</string>
+    <string name="cleanlist">清空数据</string>
+</resources>
